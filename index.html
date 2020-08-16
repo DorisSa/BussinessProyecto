@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/estilos.css">
+	<!--<script  src="RegistroEmpresarial.js"></script>-->
+	<title> Business Community</title>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row contenedor_logo_menu">
+				<div class="logo col-xs-12 col-md-6">
+					<a href="#"><img src="logo.png" alt=""></a>
+				</div>
+				
+				<div class="menu col-xs-12 col-md-6 ">
+					<a href="#producto">Inicio</a>
+					<a href="#contacto">Contacto</a>
+			        <a href="Login.html">Iniciar Sesión</a> 
+					
+				</div>
+			</div>
+
+			<div class="row textos">
+				<div class="col-md-12">
+					<h2  style="color: black; font-weight: bold;"  class="primera_linea">Te brindamos las mejores oportunidades de trabajo</h2>
+					<h3 style="color: black; font-weight: bold;" class="segunda_linea">Empieza registrandote ahora.</h3>
+					<div class="contenedor-btns">
+						<a style="color: black; font-weight: bold;" href="#registroEmpresarial">Registro Empresarial</a>
+						<a style="color: black; font-weight: bold;" href="#registroProfesional">Registro Profesional</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="main">
+		<section class="registroEmpresarial" id="registroEmpresarial">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="titulo">Registro Empresarial</h3>
+					</div>
+				</div>
+				<div style="text-align: center">
+					
+				<div id="hijo" >
+				<form action="#" style="margin-top: 10px; margin-bottom: 10px; font-size: 20px">
+					<label for="nombre" style="color: #0f4c75">Nombre: </label>
+					<input type="text" id="nombre" placeholder="Ingrese su nombre" > <br><br>
+					<label for="email" style="color: #0f4c75">Email: </label>
+					<input type="text" id="email" placeholder=" ingrese su correo"> <br> <br>
+					<input type="checkbox"id="terminos" > Aceptar terminos y condiciones </input><br> <b>
+			        <button class="button1" style="color: #0f4c75" onclick="enviarRe(event);">Enviar </button>
+					<!--<input type="submit" onclick="return validarFormularioRe()" value="Enviar" >
+					enviarRe(event);validarFormularioRe(event);-->
+					
+				 </form>
+					
+			      </div>
+				</div>
+					
+				</div>
+			</div>
+		</section>
+
+		<section class="fotos" id="producto">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="row foto">
+							<div class="col-xs-4 thumb">
+								<img src="img/thumb1.jpg" alt="">
+							</div>
+							<div class="col-xs-8  texto">
+								<h2 class="titulo azul"  style="text-align: center; " ><b>¿Eres Profesional y estás en busca de nuevos retos y desafíos para tu vida laboral? </b> </h2>
+
+								<p class="parrafo" style="text-align: justify; ">Business Community te impulsa en tu vida profesional para que tu perfil laboral sea visto y analizado por pequeñas, medianas y grandes empresas que están en busca de tus habilidades para sacar al máximo tu potencial como ser humano y profesional.</p>
+							</div>
+						</div>
+					
+						<div class="row foto">
+							<div class="col-xs-8 texto">
+								<h2 class="titulo azul"  style="text-align: center; " ><b>¿Necesitas contratar profesionales con experiencia? </b> </h2>
+
+								<p class="parrafo" style="text-align: justify; ">Bussines community  es  la red social que une a profesionales con el objetivo de ayudarte a encontrar el perfil indicado que se adapte a tu empresa, con esta red de largo alcance tendras garantizado personas eficientes con aptitudes vocacionales aptas que le ayudaran a tu empresa a tener un buen ambiente laboral</p>
+							</div>
+							<div class="col-xs-4 thumb">
+								<img src="img/thumb2.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
+
+		<section class="registroProfesional" id="registroProfesional">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="titulo">Registro Profesional</h3>
+					</div>
+				</div>
+			    <div style="text-align: center">
+				   <div id="hijo" >
+				 <form action="#" style="margin-top: 10px; margin-bottom: 10px; font-size: 20px">
+					<label for="nombreRp" style="color: #0f4c75">Nombre: </label>
+					<input type="text" id="nombreRp" placeholder="Ingrese su nombre" > <br><br>
+					<label for="apellidoRp" style="color: #0f4c75">Apellido: </label>
+					<input type="text" id="apellidoRp" placeholder="Ingrese su apellido" > <br><br>
+					<label for="telefonoRp" style="color: #0f4c75">Teléfono: </label>
+					<input type="text" id="telefonoRp" placeholder="Ingrese su teléfono" > <br><br>
+					<label for="emailRp" style="color: #0f4c75">E-mail: </label>
+					<input type="text" id="emailRp" placeholder=" ingrese su correo"> <br> <br>
+					<input type="checkbox"id="terminosRp" > Aceptar terminos y condiciones </input><br> <b>
+			        <button class="button2" style="color: #0f4c75" onclick="enviarRp(event);">Enviar </button>
+					<!--<input type="submit" onclick="return validarFormularioRe()" value="Enviar" >
+					enviarRe(event);validarFormularioRe(event);-->
+					
+				 </form>
+					
+			      </div>
+				</div>
+					
+				</div>
+			</div>
+		</section>
+
+		
+
+		
+	</section>
+
+	<footer>
+		<div class="direccion" id="contacto">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<h4 class="titulo"><b style="color: #eebb4d" >Referencias de contactos</b></h4>
+						<p class="correo"><b style="color: #318fb5">Email:</b> doris.santacruzp@ug.edu.ec </p>
+                        <p class="telefono" ><b style="color: #bbd196">Telefono:</b> 0991844410</p>
+						<p class="correo"><b style="color: #318fb5">Email:</b> joselyne.villonm@ug.edu.ec </p>
+                        <p class="telefono" ><b style="color: #bbd196">Telefono:</b> 0935465728</p>
+						<p class="correo"><b style="color: #318fb5">Email:</b> ricardo.cajapeto@ug.edu.ec </p>
+                        <p class="telefono" ><b style="color: #bbd196">Telefono:</b> 0967788800</p>
+                        <p class="correo"><b style="color: #318fb5">Email:</b> joshua.avilav@ug.edu.ec </p>
+                        <p class="telefono" ><b style="color: #bbd196">Telefono:</b> 0993929350</p>
+					</div>
+					<div class="col-md-4 logo">
+						<img src="logo.png" alt="" class="logo">
+					</div>
+				</div>
+			</div>
+
+			
+
+		</div>
+
+		<div class="social">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+						<a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+						<a class="youtube" href="#"><i class="fa fa-youtube"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="contenedor">
+			<div class="copyright">
+				<p>Copyright 2020 Business Community</p>
+			</div>
+		</div>
+	</footer>
+
+<script type="text/javascript">	
+function enviarRe(event){
+		event.preventDefault();
+
+
+		var nombre = document.getElementById('nombre').value;
+        var email = document.getElementById('email').value;
+        var terminos = document.getElementById("terminos");
+
+        if(nombre=="" || email==""||terminos==""){
+
+              alert("Llene por favor todo los campos");
+                return false;
+
+        }
+        if(!terminos.checked){
+		alert("Debe aceptar terminos y condiciones");
+		return false;
+	    }
+
+        else{
+          alert( "Mensaje enviado correctamente");
+         document.getElementById('nombre').value = "";
+		 document.getElementById('email').value="";
+		 document.getElementById('terminos').checked=0;
+
+
+        }
+
+	} 
+     
+function enviarRp(event){
+		event.preventDefault();
+
+
+		var nombreRp = document.getElementById('nombreRp').value;
+		var apellidoRp = document.getElementById('nombreRp').value;
+		var telefonoRp= document.getElementById('telefonoRp').value;
+        var emailRp = document.getElementById('emailRp').value;
+        var terminosRp = document.getElementById("terminosRp");
+
+        if(nombreRp=="" || apellidoRp=="" || emailRp=="" || telefonoRp==""||terminosRp==""){
+
+              alert("Llene por favor todo los campos");
+                return false;
+
+        }
+        if(!terminosRp.checked){
+		alert("Debe aceptar terminos y condiciones");
+		return false;
+	    }
+
+        else{
+          alert( "Mensaje enviado correctamente");
+         document.getElementById('nombreRp').value = "";
+         document.getElementById('apellidoRp').value = "";
+         document.getElementById('telefonoRp').value= "";
+		 document.getElementById('emailRp').value="";
+		 document.getElementById('terminosRp').checked=0;
+
+
+        }
+
+	} 
+     
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </body>
+</html>
