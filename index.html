@@ -10,11 +10,9 @@
 	<script  src="assets/js/RegistroEmpresarial.js"></script>
 	<title> Business Community</title>
 </head>
-
 <body>
-	
 	<header>
-		<div class="container"></div>
+		<div class="container">
 			<div class="row contenedor_logo_menu">
 				<div class="logo col-xs-12 col-md-6">
 					<a href="#"><img src="assets/img/logo.png" alt=""></a>
@@ -23,7 +21,7 @@
 				<div class="menu col-xs-12 col-md-6 ">
 					<a href="#producto">Inicio</a>
 					<a href="#contacto">Contacto</a>
-			        <a href="Login.html">Iniciar Sesión</a> 
+			        <a href="views/Login/Login.html">Iniciar Sesión</a> 
 					
 				</div>
 			</div>
@@ -33,8 +31,8 @@
 					<h2  style="color: black; font-weight: bold;"  class="primera_linea">Te brindamos las mejores oportunidades de trabajo</h2>
 					<h3 style="color: black; font-weight: bold;" class="segunda_linea">Empieza registrandote ahora.</h3>
 					<div class="contenedor-btns">
-						<a style="color: black; font-weight: bold;" href="#registroEmpresarial">Registro Empresarial</a>
-						<a style="color: black; font-weight: bold;" href="#registroProfesional">Registro Profesional</a>
+						<a style="color: black; font-weight: bold;" href="views/RegistroEmpresarial/RegistroEmpresarial.html">Registro Empresarial</a>
+						<a style="color: black; font-weight: bold;" href="views/RegistroProfesional/RegistroProfesional.html">Registro Profesional</a>
 					</div>
 				</div>
 			</div>
@@ -42,42 +40,13 @@
 	</header>
 
 	<section class="main">
-		<section class="registroEmpresarial" id="registroEmpresarial">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h3 class="titulo">Registro Empresarial</h3>
-					</div>
-				</div>
-				<div style="text-align: center">
-					
-				<div id="hijo" >
-				<form action="#" style="margin-top: 10px; margin-bottom: 10px; font-size: 20px">
-					<label for="nombre" style="color: #0f4c75">Nombre: </label>
-					<input type="text" id="nombre" placeholder="Ingrese su nombre" > <br><br>
-					<label for="email" style="color: #0f4c75">Email: </label>
-					<input type="text" id="email" placeholder=" ingrese su correo"> <br> <br>
-					<input type="checkbox"id="terminos" > Aceptar terminos y condiciones </input><br> <b>
-			        <button class="button1" style="color: #0f4c75" onclick="enviarRe(event);">Enviar </button>
-					<!--<input type="submit" onclick="return validarFormularioRe()" value="Enviar" >
-					enviarRe(event);validarFormularioRe(event);-->
-					
-				 </form>
-					
-			      </div>
-				</div>
-					
-				</div>
-			</div>
-		</section>
-
 		<section class="fotos" id="producto">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
 						<div class="row foto">
 							<div class="col-xs-4 thumb">
-								<img src="img/thumb1.jpg" alt="">
+								<img src="assets/img/thumb1.jpg" alt="">
 							</div>
 							<div class="col-xs-8  texto">
 								<h2 class="titulo azul"  style="text-align: center; " ><b>¿Eres Profesional y estás en busca de nuevos retos y desafíos para tu vida laboral? </b> </h2>
@@ -93,48 +62,13 @@
 								<p class="parrafo" style="text-align: justify; ">Bussines community  es  la red social que une a profesionales con el objetivo de ayudarte a encontrar el perfil indicado que se adapte a tu empresa, con esta red de largo alcance tendras garantizado personas eficientes con aptitudes vocacionales aptas que le ayudaran a tu empresa a tener un buen ambiente laboral</p>
 							</div>
 							<div class="col-xs-4 thumb">
-								<img src="img/thumb2.jpg" alt="">
+								<img src="assets/img/thumb2.jpg" alt="">
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-
-		
-
-		<section class="registroProfesional" id="registroProfesional">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h3 class="titulo">Registro Profesional</h3>
-					</div>
-				</div>
-			    <div style="text-align: center">
-				   <div id="hijo" >
-				 <form action="#" style="margin-top: 10px; margin-bottom: 10px; font-size: 20px">
-					<label for="nombreRp" style="color: #0f4c75">Nombre: </label>
-					<input type="text" id="nombreRp" placeholder="Ingrese su nombre" > <br><br>
-					<label for="apellidoRp" style="color: #0f4c75">Apellido: </label>
-					<input type="text" id="apellidoRp" placeholder="Ingrese su apellido" > <br><br>
-					<label for="telefonoRp" style="color: #0f4c75">Teléfono: </label>
-					<input type="text" id="telefonoRp" placeholder="Ingrese su teléfono" > <br><br>
-					<label for="emailRp" style="color: #0f4c75">E-mail: </label>
-					<input type="text" id="emailRp" placeholder=" ingrese su correo"> <br> <br>
-					<input type="checkbox"id="terminosRp" > Aceptar terminos y condiciones </input><br> <b>
-			        <button class="button2" style="color: #0f4c75" onclick="enviarRp(event);">Enviar </button>
-					<!--<input type="submit" onclick="return validarFormularioRe()" value="Enviar" >
-					enviarRe(event);validarFormularioRe(event);-->
-					
-				 </form>
-					
-			      </div>
-				</div>
-					
-				</div>
-			</div>
-		</section>
-
 		
 
 		
@@ -183,20 +117,5 @@
 			</div>
 		</div>
 	</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
    </body>
 </html>
