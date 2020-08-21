@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="../../assets/css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../Login/Login.css">
+	<link  rel="icon"   href="assets/img/b.png" type="image/png" /> 
 	<script  src="../Login/Login.js"></script>
 	<title> Business Community</title>
 </head>
@@ -15,7 +16,7 @@
 		<div class="container">
 			<div class="row contenedor_logo_menu">
 				<div class="logo col-xs-12 col-md-6">
-					<a href="#"><img src="logo.png" alt=""></a>
+					<img src="assets/img/logo.png" alt="" class="logo">
 				</div>
 				
 				<div class="menu col-xs-12 col-md-6 ">
@@ -29,7 +30,7 @@
 		<section class="registroLogin" id="registroLogin">
 			<div class="container" >
 				<div class="logos ">
-					<a href="#"><img src="img/login.png"  alt=""></a>
+					<a href="#"><img src="assets/img/login.png"  alt=""></a>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
@@ -41,12 +42,13 @@
 					
 				<div id="hijo" >
 				<form action="#" style="margin-top: 10px; margin-bottom: 10px; font-size: 20px">
-					<label for="nombre" style="color: #0f4c75">Nombre: </label>
-					<input type="text" id="nombre" placeholder="Ingrese su nombre" > <br><br>
-					<label for="email" style="color: #0f4c75">Email: </label>
+					<label for="email" style="color: #586268">Email: </label>
 					<input type="text" id="email" placeholder=" ingrese su correo"> <br> <br>
+					<label for="password" style="color: #0f4c75">Contraseña:</label>
+                    <input type="password" name="password" id="password" placeholder=" ingrese su contraseña"> &nbsp
+                    <button class="btn btn-dark" type="button" onclick="mostrarContrasena()" id="boton"><i class="fa fa-eye-slash"></i></button><br> <br>
 					<input type="checkbox"id="terminos" > Aceptar terminos y condiciones </input> <br> <br><br>
-			       <button class="button1" style="color: #0f4c75" onclick="enviarRe(event);">Enviar </button>
+			       <button class="button1" style="color: #0f4c75" onclick="entrar(event);">Entrar </button>
 					<!--<input type="submit" onclick="return validarFormularioRe()" value="Enviar" >
 					enviarRe(event);validarFormularioRe(event);-->
 					
