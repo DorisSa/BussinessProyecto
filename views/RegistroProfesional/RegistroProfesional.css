@@ -78,7 +78,7 @@ header .textos .contenedor-btns a:hover {
 }
 
 .main .registroEmpresarial {
-    background: url("../img/pc.jpg"), #727171;
+    background: url("../img/pc.jpg"), ##727171;
     background-size: cover;
     background-position: center 0;
     background-repeat: no-repeat;

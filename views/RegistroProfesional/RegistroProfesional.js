@@ -64,11 +64,15 @@ function enviarRp(event){
 
 function mostrarContrasena() {
     var input = document.getElementById("password");
-    if (input.type == "password") {
-        input.type = "text";
+    if (input.type == "password"){
+		input.type = "text";
+		document.getElementById("boton").innerHTML = "<i class='fa fa-eye'></i>"
     } else {
-        input.type = "password";
-
+		input.type = "password";
+		document.getElementById("boton").innerHTML = "<i class='fa fa-eye-slash'></i>"
+		
     }
 }
+
+
 
