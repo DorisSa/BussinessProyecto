@@ -46,7 +46,7 @@ header .contenedor_logo_menu .menu a {
 header .textos {
   color: #fff;
   text-align: center;
-  margin: 200px 0;
+  margin: 150px 0;
 }
 
 header .textos .primera_linea, header .textos .segunda_linea {
@@ -76,6 +76,7 @@ header .textos .contenedor-btns a {
   display: inline-block;
   text-align: center;
   margin: 0 10px;
+  margin-bottom: 50px;
 }
 
 header .textos .contenedor-btns a:hover {

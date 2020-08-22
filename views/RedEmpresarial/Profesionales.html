@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../RedEmpresarial/EstiloEmpresarial.css">
+    <title>Pagina web hecha con Bootstrap</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand">Bussiness Community</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuNavegacion"
+                    aria-controls="menuNavegacion" aria-expanded="false" aria-label="Alternar Menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menuNavegacion">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="../RedEmpresarial/InicioEmpresarial.html" class="nav-link">Inicio <i class="fa fa-home"></i> </a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link">Empleos <i class="fa fa-briefcase"></i> </a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a href="#" class="nav-link">Curriculum <i class="fa fa-file"></i> </a>
+                        </li> -->
+                        <!-- Boton Desplegable -->
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">
+                                Mi Cuenta <i class="fa fa-user"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a href="#" class="dropdown-item">Mi Perfil</a>
+                                <a href="#" class="dropdown-item">Ajustes y Privacidad</a>
+                                <a href="#" class="dropdown-item">configuracion</a>
+                                <a href="#" class="dropdown-item">Cerrar Sesión</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <form class="form-inline my-2 my-lg-0" action="">
+                        <input type="text" class="form-control mr-sm-2" type="search" placeholder="Buscar">
+                        <button class="btn btn-primary my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- <h1>este es el modal</h1>
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p> -->
+    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Ver mas 
+            </button> -->
+
+    <!-- </div>
+    </div> -->
+    <!-- Button trigger modal -->
+
+
+    <!-- <footer>
+        <h1>este es el footer</h1>
+    </footer> -->
+
+
+    <main class="container">
+        <div class="row">
+            <div class="col">
+                <div class="carousel slide" id="slideshow" data-ride="carousel">
+                    <!-- Indicadores -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#slideshow" class="active" data-slide-to="0"></li>
+                        <li data-target="#slideshow" data-slide-to="1"></li>
+                        <li data-target="#slideshow" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Slides -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../../assets/img/s11.jpg" alt="" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../../assets/img/s12.jpg" alt="" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../../assets/img/s13.jpg" alt="" class="d-block w-100">
+                        </div>
+                    </div>
+                    <!-- Controles -->
+                    <a href="#slideshow" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a href="#slideshow" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="py-4 border-bottom">
+                    <h1 class="text-center">Nuevos Profesionales</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row py-4">
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="../../assets/img/m1.jpg" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title">MERCEDES BALDE ARANGO</h6>
+                        <p class="card-text">Coordinadora de Marketing. </p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                            Ver mas
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="../../assets/img/h1.jpg" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title">ALFREDO CARO MONTIEL</h6>
+                        <p class="card-text">Diseñador Web.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
+                            Ver mas
+                        </button> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="../../assets/img/m2.jpg" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title">SANDRA MESTRES SAUCEDO</h6>
+                        <p class="card-text">Asesora Telefónica de Call Center.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
+                            Ver mas
+                        </button> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="../../assets/img/h2.jpg" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title">SERGIO NUEZ PADILLA</h6>
+                        <p class="card-text"> Ejecutivo de Ventas.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal4">
+                            Ver mas
+                        </button> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="../../assets/img/h3.jpg" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title">MIGUEL AGUIRRE PRESA</h6>
+                        <p class="card-text">Promotor de Equipos Móviles.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal5">
+                            Ver mas
+                        </button> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="../../assets/img/m3.jpg" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title">PATRICIA BERNAL MEZA</h6>
+                        <p class="card-text">Asistente en Sistemas.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal6">
+                            Ver mas
+                        </button> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="../../assets/img/h4.jpg" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title">JUAN MANCHON TIGRE</h6>
+                        <p class="card-text">Jefe de Operaciones/técnicos.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal7">
+                                Ver mas
+                            </button> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="../../assets/img/m4.jpg" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title">ROCIO GRANDA ROSAS</h6>
+                        <p class="card-text">Técnico en Sistemas.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal8">
+                            Ver mas
+                        </button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal MERCEDES BALDE ARANGO-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel">MERCEDES BALDE ARANGO(27 años)</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6><strong>CORREO :</strong> mercedesb@gmail.com</h6>
+                    <h6><strong>CIUDAD :</strong> GUAYAQUIL.</h6>
+                    <h6><strong>IDIOMAS :</strong> INGLES - INTERMEDIO.</h6>
+                    <h6><strong>ESTUDIO :</strong> INGENIERÍA EN MARKETING. ING COMERCIAL , LCDO. EN MERCADOTECNIA O CARRERAS A FINES.</h6>
+                    <h6><strong>EXPERIENCIA :</strong> 4 AÑOS EN CARGO DE COORDINADORA DE MARKETING.</h6>
+                    <ul><strong>CONOCIMIENTOS :</strong>
+                    <li>DESARROLLO E IMPLEMENTACIÓN DE ESTRATEGIAS DE MARKETING.</li>
+                    <li>RELACIONES PÚBLICAS.</li>
+                    <li>COORDINACIÓN DE ACTIVACIONES EN PISOS DE VENTAS Y MANEJO DE CAMPAÑA.</li>
+                    <li>CREACIÓN DE ÓRDENES DE COMPRAS (SISTEMA SAP).</li>
+                </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Modal ALFREDO CARO MONTIEL-->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">ALFREDO CARO MONTIEL(35 AÑOS)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6><strong>CORREO :</strong> alfredoc@gmail.com</h6>
+                    <h6><strong>CIUDAD :</strong> QUITO.</h6>
+                    <h6><strong>IDIOMAS :</strong> INGLES - INTERMEDIO.</h6>
+                    <h6><strong>ESTUDIO :</strong> INGENIERÍA EN SISTEMAS COMPUTACIONALES.</h6>
+                    <h6><strong>EXPERIENCIA :</strong> 7 AÑOS EN CARGO DE DISEÑADOR Y PROGRAMADOR WEB.</h6>  
+                    <ul><strong>CONOCIMIENTOS :</strong>
+                    <li>DOMINIO DE PLATAFORMAS PRESTASHOP,WORDPRESS,WOOCOMERCE.</li>
+                    <li>DISEÑO GRÁFICO MULTIMEDIA, SOCIAL MEDIA, COREL DRAW, DREAMWEAVER, ILLUSTRATOR, PHOTOSHOP.</li>
+                    <li>HABILIDADES TECNICAS EN PHP, JAVASCRIPT, HTML, MSQL, ACTION SCRIPT</li>
+                </ul>
+                 </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal SANDRA MESTRES SAUCEDO-->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">SANDRA MESTRES SAUCEDO(33 AÑOS)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6><strong>CORREO :</strong> sandram@gmail.com</h6>
+                    <h6><strong>CIUDAD :</strong> MANTA.</h6>
+                    <h6><strong>IDIOMAS :</strong> INGLES - INTERMEDIO.</h6>
+                    <h6><strong>ESTUDIO :</strong> INGENIERA EN COMUNICACIÓN SOCIAL Y ADMINISTRACIÓN DE EMPRESAS.</h6>
+                    <h6><strong>EXPERIENCIA :</strong> 6 AÑOS EN ATENCIÓN AL CLIENTE.</h6>
+                    <ul><strong>CONOCIMIENTOS :</strong>
+                    <li>CONOCIMIENTO EN SOPORTE CON RELACIÓN A PRODUCTOS O SERVICIOS BANCARIOS.</li>
+                    <li>ATENDER CONSULTAS DE BALANCES O ESTADOS DE CUENTAS. </li>
+                    <li>CANALIZACIÓN DE QUEJAS Y RECLAMOS AL CLIENTE.</li>
+                    <li>HABILIDADES FACILIDAD DE COMUNICACIÓN Y FLUIDEZ VERBAL.</li>
+                </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Modal SERGIO NUEZ PADILLA-->
+    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">SERGIO NUEZ PADILLA(30 AÑOS)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6><strong>CORREO :</strong> sergion@gmail.com</h6>
+                    <h6><strong>CIUDAD :</strong> GUAYAQUIL.</h6>
+                    <h6><strong>IDIOMAS :</strong> INGLES - INTERMEDIO.</h6>
+                    <h6><strong>ESTUDIO :</strong> LICENCIATURA EN ÁMBITO ECONÓMICO - ADMINISTRATIVO.</h6>
+                    <h6><strong>EXPERIENCIA :</strong> 8 AÑOS EN CARGOS DE EJECUTIVO EN VENTAS, SIMILARES O AFINES.</h6>
+                    <ul><strong>CONOCIMIENTOS :</strong>
+                    <li>VENTA DE SERIVICIOS PUBLICITARIOS, PROACTIVAS.</li>
+                    <li>EXCELENTE COMUNICACIÓN CON EL CLIENTE, CON ALTO NIVEL DE SOCIALIZACIÓN.</li>
+                    <li>METODOLOGÍA, PROCESOS Y TÉCNICAS EN VENTAS Y MARKETING. </li>
+                    <li>REDES DE DISTRIBUCIÓN Y COMPORTAMIENTO DEL MERCADO.</li>
+                    <li>MANEJO DE ERP. </li>
+                </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Modal MIGUEL AGUIRRE PRESA-->
+     <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">MIGUEL AGUIRRE PRESA(45 AÑOS)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6><strong>CORREO :</strong> miguela@gmail.com</h6>
+                    <h6><strong>CIUDAD :</strong> IBARRA.</h6>
+                    <h6><strong>IDIOMAS :</strong> INGLES - INTERMEDIO.</h6>
+                    <h6><strong>ESTUDIO :</strong> LICENCIATURA EN ADMINISTRACIÓN DE VENTAS.</h6>
+                    <h6><strong>EXPERIENCIA :</strong> 10 AÑOS EN CARGOS DE PROMOTOR DE EQUIPOS MOVILES, SIMILARES O AFINES.</h6>
+                    <ul><strong>CONOCIMIENTOS :</strong>
+                    <li>RESALTAR ATRIBUTOS Y BENEFICIOS DE LOS PRODUCTOS.</li>
+                    <li>EJECUTAR ACTIVIDADES DE TELEMARKETING, CAMBACEO Y VOLANTEO.</li>
+                    <li>ABORDAR EL 100% DE LOS CLIENTES QUE TRANSITEN EN EL PDV.</li>
+                    <li>INDUCIR A LA COMPRA E INCREMENTAR LA ROTACIÓN DE LOS PRODUCTOS POR MEDIO DE LA VENTA.</li>
+                    <li>HABILIDADES FACILIDAD DE COMUNICACIÓN Y FLUIDEZ VERBAL.</li>
+                </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+     <!-- Modal PATRICIA BERNAL MEZA-->
+     <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">PATRICIA BERNAL MEZA(27 AÑOS)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6><strong>CORREO :</strong> patriciab@gmail.com</h6>
+                    <h6><strong>CIUDAD :</strong> AZUAY.</h6>
+                    <h6><strong>IDIOMAS :</strong> INGLES - INTERMEDIO.</h6>
+                    <h6><strong>ESTUDIO :</strong> INGENIERIA EN SISTEMAS COMPUTACIONALES.</h6>
+                    <h6><strong>EXPERIENCIA :</strong> 6 AÑOS EN CARGO DE INGENIERIA EN SISTEMAS, SIMILARES O AFINES.</h6>
+                    <ul><strong>CONOCIMIENTOS :</strong>
+                    <li>SQL SERVER 2012-2016-2019.</li>
+                    <li>INSTALACIÓN Y CONFIGURACIÓN DE SISTEMAS OPERATIVOS WINDOWS, LINUX, MAC, VIRTUALIZACIÓN.</li>
+                    <li>OFIMATICA, METODOLOGÍA AGILES.</li>
+                    <li>MANTENIMIENTO PREVENTIVO EN EQUIPOS DE COMPUTO Y/E IMPRESORAS.</li>
+                    <li>ADMINISTRACIÓN Y GESTIÓN DE REDES DE DATOS Y VOZ IP.</li>
+                    <li>SOPORTE TÉCNICO EN INSTALACIÓN Y CONFIGURACIÓN DE EQUIPOS DE COMPUTO, IMPLEMENTACIÓN DE INTRANET</li>
+                </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Modal JUAN MANCHON TIGRE-->
+     <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">JUAN MANCHON TIGRE(46 AÑOS)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6><strong>CORREO :</strong> juanm@gmail.com</h6>
+                    <h6><strong>CIUDAD :</strong> CHIMBORAZO.</h6>
+                    <h6><strong>IDIOMAS :</strong> INGLES - INTERMEDIO.</h6>
+                    <h6><strong>ESTUDIO :</strong> INGENIERO CIVIL EN INFORMÁTICA/COMPUTACIÓN.</h6>
+                    <h6><strong>EXPERIENCIA :</strong> 5 AÑOS EN INGENIERIA DE SISTEMAS Y/O EN OPERACIONES INFORMATICAS
+                    ,2 AÑOS ADMINISTRANDO GRUPOS DE TRABAJO EN OPERACIONES INFORMÁTICAS Y/O INGENIERA EN SISTEMAS COMPUTACIONALES.</h6>
+                    <ul><strong>CONOCIMIENTOS :</strong>
+                    <li>MANTENER Y ACTUALIZAR LAS CONFIGURACIONES DE HARDAWARE CENTRALIZADO.</li>
+                    <li>INSTALAR, CONFIGURAR Y MANTENER EL HARDWARE MENOR Y REDES DE DATOS.</li>
+                    <li>COORDINAR Y RELIAZAR RESPALDOS Y RECUPERACIÓN DE ARCHIVOS, REALIZAR PRUEBAS DE RECUPERACIÓN.</li>
+                    <li>GENERAR PROPUESTAS DE MEJORA EN EL ÁREA.</li>
+                    <li>ADMINISTRAR LA OPERACIÓN DEL DATACENTER PRINCIPAL Y DE CONTINGENGIAS, REDES Y EQUIPOS DE USUARIOS.</li>
+                </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Modal ROCIO GRANDA ROSAS-->
+     <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">ROCIO GRANDA ROSAS(37 AÑOS)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6><strong>CORREO :</strong> rociog@gmail.com</h6>
+                    <h6><strong>CIUDAD :</strong> MANABÍ.</h6>
+                    <h6><strong>IDIOMAS :</strong> INGLES - INTERMEDIO.</h6>
+                    <h6><strong>ESTUDIO :</strong> INGENIERIA EN TÉCNICO EN INFORMÁTICA SISTEMAS.</h6>
+                    <h6><strong>EXPERIENCIA :</strong> 6 AÑOS EN CARGO EN TÉCNICO EN INFORMÁTICA SISTEMAS, SIMILARES O AFINES.</h6>
+                    <ul><strong>CONOCIMIENTOS:</strong>
+                    <li>CONOCIMIENTO MEDIO EN OFIMÁTICA.</li>
+                    <li>CONOCIMIENTO MEDIO EN SISTEMAS OPERATIVOS WINDOWS 7, 10, SERVER 2008 R2, SERVER 2003.</li>
+                    <li>MANEJO Y CONFIGURACIÓN DE SWITCH CISCO.</li>
+                </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../../assets/js/jquery-3.3.1.min.js"></script>
+    <script src="../../assets/js/popper.min.js"></script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
