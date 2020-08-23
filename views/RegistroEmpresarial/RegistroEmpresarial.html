@@ -34,15 +34,15 @@
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="col-20 col-sm-6 col-lg-6 mb-8">
-                        <div class="card" >
+                        <div class="card " >
                             <!-- <img class="card-img-top" src="../../assets/img/m1.jpg" alt=""> -->
                             <div class="card-body"style="text-align:center">
                                &nbsp &nbsp <h2 class="card-title"  >Registro Empresarial </h2>
-                                        <form action="" style="margin-top: 10px; margin-bottom: 10px; font-size: 20px">
+                                        <form action="" class="formulario" id="formulario" name="formulario" style="margin-top: 10px; margin-bottom: 10px; font-size: 20px">
                                             <label for="nombre" style="color: #23b5c9"> <strong>Nombre: </strong>  </label>
                                             <input type="text" id="nombre" placeholder="Ingrese su nombre"></input> <br><br>
                                             &nbsp &nbsp &nbsp <label for="email" style="color: #23b5c9"><strong>Email:  </strong></label>
-                                            <input type="text" id="email" placeholder=" ingrese su correo"></input> <br> <br>
+                                            <input type="email" id="email" placeholder=" ingrese su correo"></input> <br> <br>
                                             &nbsp &nbsp &nbsp<label for="contrasena" style="color: #23b5c9"><strong>Contraseña:  </strong></label>
                                             <input type="password" name="password" id="password1"placeholder=" ingrese su contraseña"></input>
                                             <button class="btn btn-dark" type="button" onclick="mostrarContrasena()"id="boton"><i class="fa fa-eye-slash"></i></button><br> <br>
@@ -51,12 +51,15 @@
                                             <a class="btn btn-outline-info" onclick="enviarRe(event)"> Enviar </a>
                                             <!--<input type="submit" onclick="return validarFormularioRe()" value="Enviar" >
                                             enviarRe(event);validarFormularioRe(event);-->
+                                            
                                         </form>
 
                             </div>
 
                         </div>
                     </div>
+                </div>
+            </div>
         </section>
     </section>
 

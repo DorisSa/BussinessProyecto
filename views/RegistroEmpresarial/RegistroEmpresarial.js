@@ -1,7 +1,6 @@
+
 function enviarRe(event){
 	event.preventDefault();
-
-
 	var nombre = document.getElementById('nombre').value;
 	var email = document.getElementById('email').value;
 	var password1 = document.getElementById('password1').value;
@@ -17,7 +16,7 @@ function enviarRe(event){
 		alert("Debe aceptar terminos y condiciones");
 		return false;
 	}
-
+	
 	else{
 		alert( "Mensaje enviado correctamente");
 		document.getElementById('nombre').value = "";
@@ -30,8 +29,6 @@ function enviarRe(event){
 	}
 
 } 
-
-
 function mostrarContrasena() {
     var input = document.getElementById("password1");
     if (input.type == "password"){

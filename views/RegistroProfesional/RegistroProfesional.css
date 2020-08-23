@@ -64,21 +64,21 @@ header .textos .contenedor-btns a:hover {
 
 /* ----- ----- MAIN ----- ----- */
 
-.main .registroEmpresarial {
+.main .registroProfesional {
     padding: 70px 0;
 }
 
-.main .registroEmpresarial .titulo {
+.main .registroProfesional .container .card .card-body .card-title{
     text-align: center;
     font-family: "Open Sans", Arial, Sans-serif;
-    font-weight: 300 bold;
+    font-weight: bold;
     font-size: 32px;
-    color: #0f4c75;
-    margin-bottom: 70px;
+    color: #000000;
+    margin-bottom: 20px;
 }
 
-.main .registroEmpresarial {
-    background: url("../img/pc.jpg"), ##727171;
+.main .registroProfesional {
+    background: url("../img/pc.jpg");
     background-size: cover;
     background-position: center 0;
     background-repeat: no-repeat;
@@ -209,7 +209,7 @@ header .textos .contenedor-btns a:hover {
 .main .registroLogin .titulo {
     text-align: center;
     font-family: "Open Sans", Arial, Sans-serif;
-    font-weight: 300 bold;
+    font-weight: bold;
     font-size: 32px;
     color: #0f4c75
     /* margin-bottom:30px;  */
@@ -331,11 +331,27 @@ footer .social a.youtube {
     }
 }
 
+
 @media screen and (max-width: 768px) {
-    /* .main .registroEmpresarial .registroEmpresarial {
+    .main .registroProfesional .registroProfesional {
+        margin-bottom: 20px;
+    }
+    .card {
+       padding: 2px;
+       flex: 1 1 auto;
+        width: 310px;
+    }
+    .card .card-body form label input{
+       text-align: left;
+       }
+
+}
+
+@media screen and (max-width: 480px) {
+    /* .main .registroProfesional .registroProfesional {
         margin-bottom: 40px;
     } */
-    .main .fotos .foto {
+    /* .main .fotos .foto {
         text-align: center;
     }
     .main .fotos .foto .texto * {
@@ -343,18 +359,15 @@ footer .social a.youtube {
     }
     .main .fotos .foto .texto p {
         margin-bottom: 10px;
+    } */
+  .card {
+       padding: 2px;
+       flex: 1 1 auto;
+        width: 310px;
     }
-    .main .registroProfesional .registroProfesional {
-        margin-bottom: 20px;
-    }
-    footer .direccion {
-        text-align: center;
-    }
-    footer .direccion .logo img {
-        margin-top: 20px;
-    }
+.card .card-body form label input{
+text-align: left;
 }
-
 /* copyright */
 
 footer .copyright {

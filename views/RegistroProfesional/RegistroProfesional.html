@@ -34,35 +34,32 @@
     <section class="main" >
         <section class="registroProfesional" id="registroProfesional">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3 class="titulo">Registro Profesional</h3>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-20 col-sm-6 col-lg-6 mb-8">
+                        <div class="card " >
+                            <!-- <img class="card-img-top" src="../../assets/img/m1.jpg" alt=""> -->
+                            <div class="card-body"style="text-align:center">
+                               &nbsp &nbsp <h2 class="card-title"  >Registro Profesional </h2> <br>
+                               <form action="#" style="margin-top: 10px; margin-bottom: 10px; font-size: 20px">
+                                <label for="nombreRp" style="color: #23b5c9"><strong>Nombre: </strong> </label>
+                                <input type="text" id="nombreRp" placeholder="Ingrese su nombre" ><br><br>
+                                <label for="apellidoRp" style="color: #23b5c9"><strong>Apellido: </strong></label>
+                                <input type="text" id="apellidoRp" placeholder="Ingrese su apellido"><br><br>
+                                <label for="telefonoRp" style="color: #23b5c9"><strong>Teléfono: </strong> </label>
+                                <input type="text" id="telefonoRp" placeholder="Ingrese su teléfono"><br><br>
+                                <label for="emailRp" style="color: #23b5c9"><strong>&nbsp &nbsp E-mail: </strong></label>
+                                <input type="text" id="emailRp" placeholder=" ingrese su correo"><br> <br>
+                                <label for="password" style="color: #23b5c9"><strong>Contraseña:</strong> </label>
+                                <input type="password" name="password" id="password2" placeholder=" ingrese su contraseña"> &nbsp
+                                <button class="btn btn-dark" type="button" onclick="mostrarContrasena()" id="boton"><i class="fa fa-eye-slash"></i></button><br> <br>
+                                <input type="checkbox"id="terminosRp"> Aceptar terminos y condiciones </input><br><br>
+                                <a class="btn btn-outline-info" onclick="enviarRp(event)"> Enviar </a>
+                                <!--<input type="submit" onclick="return validarFormularioRe()" value="Enviar" >
+                                enviarRe(event);validarFormularioRe(event);--> 
+                                </form>
+                             </div>
+                        </div>
                     </div>
-                </div>
-                <div style="text-align: center">
-                   <div id="hijo" >
-                 <form action="#" style="margin-top: 10px; margin-bottom: 10px; font-size: 20px">
-                    <label for="nombreRp" style="color: #000102">Nombre: </label>
-                    <input type="text" id="nombreRp" placeholder="Ingrese su nombre" ><br><br>
-                    <label for="apellidoRp" style="color: #000102">Apellido:</label>
-                    <input type="text" id="apellidoRp" placeholder="Ingrese su apellido"><br><br>
-                    <label for="telefonoRp" style="color: #000102">Teléfono: </label>
-                    <input type="text" id="telefonoRp" placeholder="Ingrese su teléfono"><br><br>
-                    <label for="emailRp" style="color: #000102">E-mail: </label>&nbsp &nbsp
-                    <input type="text" id="emailRp" placeholder=" ingrese su correo"><br> <br>
-                    <label for="password" style="color: #000102">Contraseña:</label>
-                    <input type="password" name="password" id="password2" placeholder=" ingrese su contraseña"> &nbsp
-                    <button class="btn btn-dark" type="button" onclick="mostrarContrasena()" id="boton"><i class="fa fa-eye-slash"></i></button><br> <br>
-                    <input type="checkbox"id="terminosRp"> Aceptar terminos y condiciones </input><br><br>
-                    <button class="btn btn-success" style="color: #2067ad" onclick="enviarRp(event);">Enviar </button>
-                    <!--<input type="submit" onclick="return validarFormularioRe()" value="Enviar" >
-                    enviarRe(event);validarFormularioRe(event);-->
-                    
-                 </form>
-                    
-                  </div>
-                </div>
-                    
                 </div>
             </div>
         </section>

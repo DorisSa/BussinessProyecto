@@ -70,9 +70,7 @@ header .textos .contenedor-btns a:hover {
 
 /* ----- ----- MAIN Login ----- ----- */
 
-.main .registroLogin {
-    padding: 70px 0;
-}
+
 
 .main .registroLogin .titulo {
     text-align: center;
@@ -88,19 +86,44 @@ header .textos .contenedor-btns a:hover {
     background-size: cover;
     background-position: center 0;
     background-repeat: no-repeat;
-    padding: 70px 0;
+    padding: 0px;
+}
+
+.main .registroLogin .container .logos .card .card-body .card-title{
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight:  bold;
+    font-size: 32px;
+    color: #000000;
+    padding: 7px;
+}
+
+  .card{
+    width: 540px;
+    height: 430px;
+   margin-left: 270px;
+    
+}
+
+.card-title{
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight:  bold;
+    font-size: 32px;
+ 
+}
+.logos{
+    margin: 14px;
+    padding: 25px;
+    padding-top: 15px;
 }
 
 .logos img {
-    width: 850px;
-    margin-left: 190px;
+    width: 100px;
+    margin-left: 490px;
     margin-top: 50px;
 }
 
-.main .registroLogin .container {
-    background: #799351;
-    width: 500px;
-}
 
 /* ----- ----- FOOTER ----- ----- */
 
@@ -197,13 +220,20 @@ footer .social a.youtube {
     .main .clientes .cliente {
         margin-bottom: 40px;
     }
+    .logos img{
+        margin-left: 240px;
+    margin-top: 50px;
+    }
+    .card{
+        justify-content: last baseline;
+    }
 }
 
-@media screen and (max-width: 768px) {
-    .main .registroEmpresarial .registroEmpresarial {
+@media screen and (max-width: 580px) {
+    /* .main .registroEmpresarial .registroEmpresarial {
         margin-bottom: 40px;
-    }
-    .main .fotos .foto {
+    } */
+    /* .main .fotos .foto {
         text-align: center;
     }
     .main .fotos .foto .texto * {
@@ -211,16 +241,46 @@ footer .social a.youtube {
     }
     .main .fotos .foto .texto p {
         margin-bottom: 10px;
+    } */
+  .card {
+       padding: 2px;
+       flex: 1 1 auto;
+       width: 340px;
+       justify-content: last baseline;
     }
-    .main .registroProfesional .registroProfesional {
-        margin-bottom: 20px;
+    .card .card-body form label input{
+    text-align: left;
     }
     footer .direccion {
-        text-align: center;
+    text-align: center;
     }
     footer .direccion .logo img {
-        margin-top: 20px;
+    margin-top: 20px;
     }
+    .logos img{
+        margin-left: 200px;
+    margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+  .container{
+      width:100%;
+  }
+    .card {
+       padding: 2px;
+        width: 490px;
+        justify-content: last baseline;
+    }
+    .card .card-body form label input{
+       text-align: left;
+       }
+       .logos img{
+        margin-left: 200px;
+    margin-top: 50px;
+    }
+
 }
 
 /* copyright */
