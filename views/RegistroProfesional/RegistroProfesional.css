@@ -249,7 +249,7 @@ footer .direccion .titulo {
     margin-bottom: 30px;
 }
 
-footer .direccion .calle, footer .direccion .telefono, footer .direccion .correo {
+/* footer .direccion .calle, footer .direccion .telefono, footer .direccion .correo {
     margin-bottom: 10px;
 }
 
@@ -257,9 +257,9 @@ footer .direccion .logo img {
     width: 250px;
     margin-top: 120px;
     margin-left: 120px;
-}
+} */
 
-/* Mapa */
+/* footer*/
 
 .footer .direccion {
     width: 100%;

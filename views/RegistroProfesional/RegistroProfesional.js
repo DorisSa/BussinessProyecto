@@ -1,32 +1,3 @@
-function enviarRe(event){
-	event.preventDefault();
-
-
-	var nombre = document.getElementById('nombre').value;
-	var email = document.getElementById('email').value;
-	var terminos = document.getElementById("terminos");
-
-	if(nombre=="" || email==""||terminos==""){
-
-		alert("Llene por favor todo los campos");
-			return false;
-
-	}
-	if(!terminos.checked){
-		alert("Debe aceptar terminos y condiciones");
-		return false;
-	}
-
-	else{
-		alert( "Mensaje enviado correctamente");
-		document.getElementById('nombre').value = "";
-		document.getElementById('email').value="";
-		document.getElementById('terminos').checked=0;
-
-
-	}
-
-} 
 	
 function enviarRp(event){
 	event.preventDefault();
@@ -36,9 +7,10 @@ function enviarRp(event){
 	var apellidoRp = document.getElementById('nombreRp').value;
 	var telefonoRp= document.getElementById('telefonoRp').value;
 	var emailRp = document.getElementById('emailRp').value;
+	var password2 = document.getElementById('password2').value;
 	var terminosRp = document.getElementById("terminosRp");
 
-	if(nombreRp=="" || apellidoRp=="" || emailRp=="" || telefonoRp==""||terminosRp==""){
+	if(nombreRp=="" || apellidoRp=="" || telefonoRp==""|| emailRp=="" || password2=="" ||terminosRp==""){
 
 		alert("Llene por favor todo los campos");
 			return false;
@@ -55,6 +27,7 @@ function enviarRp(event){
 		document.getElementById('apellidoRp').value = "";
 		document.getElementById('telefonoRp').value= "";
 		document.getElementById('emailRp').value="";
+		document.getElementById('password2').value="";
 		document.getElementById('terminosRp').checked=0;
 
 
@@ -63,7 +36,7 @@ function enviarRp(event){
 } 
 
 function mostrarContrasena() {
-    var input = document.getElementById("password");
+    var input = document.getElementById("password2");
     if (input.type == "password"){
 		input.type = "text";
 		document.getElementById("boton").innerHTML = "<i class='fa fa-eye'></i>"

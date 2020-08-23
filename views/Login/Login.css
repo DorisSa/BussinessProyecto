@@ -26,7 +26,7 @@ header .contenedor_logo_menu .logo a {
     display: block;
 }
 
-header .contenedor_logo_menu .logo a img {
+header .contenedor_logo_menu .logo img {
     vertical-align: top;
     width: 50%;
 }
@@ -92,7 +92,7 @@ header .textos .contenedor-btns a:hover {
 }
 
 .logos img {
-    width: 100px;
+    width: 850px;
     margin-left: 190px;
     margin-top: 50px;
 }

@@ -10,7 +10,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../RegistroEmpresarial/RegistroEmpresarial.css">
     <script src="../RegistroEmpresarial/RegistroEmpresarial.js"></script>
-    
+    <link  rel="icon"   href="../../assets/img/b.png" type="image/png" /> 
     <title> Business Community</title>
 </head>
 
@@ -18,12 +18,13 @@
     <header>
         <div class="container">
             <div class="row contenedor_logo_menu">
-                <div class="logo col-xs-12 col-md-6">
-                    <a href="#"><img src="logo.png" alt=""></a>
+                <div class="logo col-sm-12 col-md-6">
+                    <a href="#"><img src="../../assets/img/logo.png" alt=""></a>
                 </div>
 
-                <div class="menu col-xs-12 col-md-6 ">
+                <div class="menu col-sm-12 col-md-6 ">
                     <a href="../../index.html">Inicio</a>
+                    <a href="../Login/Login.html">Iniciar Sesión</a>  
                 </div>
             </div>
 
@@ -39,16 +40,14 @@
 				<div style="text-align: center">
 					
 				<div id="hijo" >
-				<form action="#" style="margin-top: 10px; margin-bottom: 10px; font-size: 20px">
-					&nbsp &nbsp<label for="nombre" style="color: #0f4c75">Nombre: </label>
+                    <form action="#" style="margin-top: 10px; margin-bottom: 10px; font-size: 20px">
+					<label for="nombre" style="color: #0f4c75">Nombre: </label>
 					<input type="text" id="nombre" placeholder="Ingrese su nombre" > <br><br>
-					&nbsp &nbsp &nbsp &nbsp<label for="email" style="color: #0f4c75">Email: </label>
+					<label for="email" style="color: #0f4c75">Email: </label>
 					<input type="text" id="email" placeholder=" ingrese su correo"> <br> <br>
-					&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <label for="contrasena" style="color: #0f4c75">Contraseña:</label>
-                    
-                    <input class="form-control" type="password"  id="password" placeholder=" ingrese su contraseña"> &nbsp
-					<button class="btn btn-primary" type="button" onclick="mostrarContrasena()" id="boton"><i class="fa fa-eye-slash"></i></button> <br> <br>
-					
+				    <label for="contrasena" style="color: #0f4c75">Contraseña:</label> 
+                    <input type="password" name="password" id="password1" placeholder=" ingrese su contraseña"> &nbsp
+                    <button class="btn btn-dark" type="button" onclick="mostrarContrasena()" id="boton"><i class="fa fa-eye-slash"></i></button><br> <br>
 					<input type="checkbox"id="terminos" > Aceptar terminos y condiciones </input><br> <br>
 			        <button class="button1" style="color: #0f4c75" onclick="enviarRe(event);">Enviar </button>
 					<!--<input type="submit" onclick="return validarFormularioRe()" value="Enviar" >
@@ -65,34 +64,8 @@
     </section>
 
 
-
-
-
     <footer>
-        <div class="direccion" id="contacto">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-                        <h4 class="titulo"><b style="color: #eebb4d">Referencias de contactos</b></h4>
-                        <p class="correo"><b style="color: #318fb5">Email:</b> doris.santacruzp@ug.edu.ec </p>
-                        <p class="telefono"><b style="color: #bbd196">Telefono:</b> 0991844410</p>
-                        <p class="correo"><b style="color: #318fb5">Email:</b> joselyne.villonm@ug.edu.ec </p>
-                        <p class="telefono"><b style="color: #bbd196">Telefono:</b> 0935465728</p>
-                        <p class="correo"><b style="color: #318fb5">Email:</b> ricardo.cajapeto@ug.edu.ec </p>
-                        <p class="telefono"><b style="color: #bbd196">Telefono:</b> 0967788800</p>
-                        <p class="correo"><b style="color: #318fb5">Email:</b> joshua.avilav@ug.edu.ec </p>
-                        <p class="telefono"><b style="color: #bbd196">Telefono:</b> 0993929350</p>
-                    </div>
-                    <div class="col-md-4 logo">
-                        <img src="../../assets/img/logo.png" alt="" class="logo">
-                    </div>
-                </div>
-            </div>
-
-
-
-        </div>
-
+       
         <div class="social">
             <div class="container">
                 <div class="row">
@@ -112,6 +85,9 @@
         </div>
     </footer>
 
+    <script src="../../assets/js/jquery-3.3.1.min.js"></script>
+	<script src="../../assets/js/popper.min.js"></script>
+	<script src="../../assets/js/bootstrap.min.js"></script>
 </body>
 
 </html>

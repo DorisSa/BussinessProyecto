@@ -4,9 +4,10 @@ function enviarRe(event){
 
 	var nombre = document.getElementById('nombre').value;
 	var email = document.getElementById('email').value;
+	var password1 = document.getElementById('password1').value;
 	var terminos = document.getElementById("terminos");
 
-	if(nombre=="" || email==""||terminos==""){
+	if(nombre=="" || email==""|| password1==""||terminos==""){
 
 		alert("Llene por favor todo los campos");
 			return false;
@@ -21,57 +22,26 @@ function enviarRe(event){
 		alert( "Mensaje enviado correctamente");
 		document.getElementById('nombre').value = "";
 		document.getElementById('email').value="";
+		document.getElementById('password1').value="";
 		document.getElementById('terminos').checked=0;
 
 
 	}
 
 } 
-	
-function enviarRp(event){
-	event.preventDefault();
 
-
-	var nombreRp = document.getElementById('nombreRp').value;
-	var apellidoRp = document.getElementById('nombreRp').value;
-	var telefonoRp= document.getElementById('telefonoRp').value;
-	var emailRp = document.getElementById('emailRp').value;
-	var terminosRp = document.getElementById("terminosRp");
-
-	if(nombreRp=="" || apellidoRp=="" || emailRp=="" || telefonoRp==""||terminosRp==""){
-
-		alert("Llene por favor todo los campos");
-			return false;
-
-	}
-	if(!terminosRp.checked){
-	alert("Debe aceptar terminos y condiciones");
-	return false;
-	}
-
-	else{
-		alert( "Mensaje enviado correctamente");
-		document.getElementById('nombreRp').value = "";
-		document.getElementById('apellidoRp').value = "";
-		document.getElementById('telefonoRp').value= "";
-		document.getElementById('emailRp').value="";
-		document.getElementById('terminosRp').checked=0;
-
-
-	}
-
-} 
 
 function mostrarContrasena() {
-	var input = document.getElementById("password");
-    if (input.type == "password") {
+    var input = document.getElementById("password1");
+    if (input.type == "password"){
 		input.type = "text";
-		document.getElementById("boton").innerHTML = '<i class="fa fa-eye"></i>'
+		document.getElementById("boton").innerHTML = "<i class='fa fa-eye'></i>"
     } else {
-		input.type = "password"; 
-		document.getElementById("boton").innerHTML = '<i class="fa fa-eye-slash"></i>'
+		input.type = "password";
+		document.getElementById("boton").innerHTML = "<i class='fa fa-eye-slash'></i>"
 		
-	}
-	
+    }
 }
+
+
 

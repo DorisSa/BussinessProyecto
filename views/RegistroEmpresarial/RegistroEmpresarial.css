@@ -159,7 +159,7 @@ header .textos .contenedor-btns a:hover {
     margin-bottom: 70px;
 }
 
-.main .reviews .cliente {
+/* .main .reviews .cliente {
     overflow: hidden;
     margin-bottom: 20px;
 }
@@ -203,9 +203,9 @@ header .textos .contenedor-btns a:hover {
 .main .reviews .cliente.derecha .review {
     float: right;
     text-align: right;
-}
+} */
 
-/* ----- ----- MAIN Login ----- ----- */
+/* ----- ----- MAIN Login ----- -----
 
 .main .registroLogin {
     padding: 70px 0;
@@ -218,7 +218,7 @@ header .textos .contenedor-btns a:hover {
     font-size: 32px;
     color: #0f4c75
     /* margin-bottom:30px;  */
-}
+/* }
 
 .main .registroLogin {
     background: #dddddd;
@@ -237,7 +237,7 @@ header .textos .contenedor-btns a:hover {
 .main .registroLogin .container {
     background: #799351;
     width: 500px;
-}
+} */ 
 
 /* ----- ----- FOOTER ----- ----- */
 
@@ -253,23 +253,23 @@ footer .direccion .titulo {
     font-weight: 300;
     margin-bottom: 30px;
 }
-
+/* 
 footer .direccion .calle, footer .direccion .telefono, footer .direccion .correo {
     margin-bottom: 10px;
-}
+} */
 
-footer .direccion .logo img {
+/* footer .direccion .logo img {
     width: 250px;
     margin-top: 120px;
     margin-left: 120px;
 }
 
-/* Mapa */
+/* footer*/
 
-.footer .direccion {
+ .footer .direccion {
     width: 100%;
     overflow: hidden;
-}
+} 
 
 footer .social {
     text-align: center;
