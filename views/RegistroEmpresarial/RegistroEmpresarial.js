@@ -24,6 +24,7 @@ function enviarRe(event){
 		document.getElementById('email').value="";
 		document.getElementById('password1').value="";
 		document.getElementById('terminos').checked=0;
+		window.location.href ="../RedEmpresarial/InicioEmpresarial.html";
 
 
 	}

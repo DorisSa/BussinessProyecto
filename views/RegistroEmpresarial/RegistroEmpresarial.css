@@ -73,22 +73,29 @@ header .textos .contenedor-btns a:hover {
     padding: 70px 0;
 }
 
-.main .registroEmpresarial .titulo {
+.main .registroEmpresarial .container .card .card-body .card-title {
     text-align: center;
     font-family: "Open Sans", Arial, Sans-serif;
-    font-weight: 300 bold;
+    font-weight:  bold;
     font-size: 32px;
-    color: #0f4c75;
+    color: #000000;
     margin-bottom: 70px;
 }
 
+.main .registroEmpresarial .container .card{
+    margin-top: 15px;
+}
+
+
 .main .registroEmpresarial {
-    background: url("../../assets/img/pc.jpg"), #727171;
+    background: url(../../assets/img/empresarial1.jpg);
     background-size: cover;
     background-position: center 0;
     background-repeat: no-repeat;
     padding: 70px 0;
 }
+
+
 
 .main .fotos {
     margin-bottom: 70px;
@@ -129,8 +136,8 @@ header .textos .contenedor-btns a:hover {
     text-align: right;
 }
 
-.main .registroProfesional {
-    background: url("../../assets/img/pc2.jpg"), #727171;
+/* .main .registroProfesional {
+    background: #6b2c2c;
     background-size: cover;
     background-position: center 0;
     background-repeat: no-repeat;
@@ -144,7 +151,7 @@ header .textos .contenedor-btns a:hover {
     font-size: 32px;
     color: #fff;
     margin-bottom: 70px;
-}
+} */
 
 .main .reviews {
     padding: 70px;
@@ -159,6 +166,12 @@ header .textos .contenedor-btns a:hover {
     margin-bottom: 70px;
 }
 
+ 
+    
+
+    #terminos {
+        color: #2196F3;
+      }
 /* .main .reviews .cliente {
     overflow: hidden;
     margin-bottom: 20px;
@@ -274,7 +287,7 @@ footer .direccion .calle, footer .direccion .telefono, footer .direccion .correo
 footer .social {
     text-align: center;
     padding: 20px 0;
-    background: #be5683;
+    background: #3c2946;
 }
 
 footer .social a {
@@ -336,11 +349,11 @@ footer .social a.youtube {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     /* .main .registroEmpresarial .registroEmpresarial {
         margin-bottom: 40px;
     } */
-    .main .fotos .foto {
+    /* .main .fotos .foto {
         text-align: center;
     }
     .main .fotos .foto .texto * {
@@ -348,9 +361,10 @@ footer .social a.youtube {
     }
     .main .fotos .foto .texto p {
         margin-bottom: 10px;
-    }
-    .main .registroProfesional .registroProfesional {
+    } */
+    .main .registroEmpresarial  {
         margin-bottom: 20px;
+        width: 100px;
     }
     footer .direccion {
         text-align: center;
