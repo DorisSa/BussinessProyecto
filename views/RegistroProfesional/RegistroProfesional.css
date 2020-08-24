@@ -365,8 +365,9 @@ footer .social a.youtube {
        flex: 1 1 auto;
         width: 310px;
     }
-.card .card-body form label input{
-text-align: left;
+ .card .card-body form label input{
+ text-align: left;
+   }
 }
 /* copyright */
 
@@ -376,5 +377,3 @@ footer .copyright {
     color: #fff;
     background: #050505;
 }
-
-/*# sourceMappingURL=estilos.css.map */

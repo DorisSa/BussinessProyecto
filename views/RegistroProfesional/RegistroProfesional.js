@@ -29,6 +29,7 @@ function enviarRp(event){
 		document.getElementById('emailRp').value="";
 		document.getElementById('password2').value="";
 		document.getElementById('terminosRp').checked=0;
+		window.location.href ="../RedProfesional/InicioProfesional.html";
 
 
 	}
