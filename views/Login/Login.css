@@ -82,11 +82,11 @@ header .textos .contenedor-btns a:hover {
 }
 
 .main .registroLogin {
-    background: #dddddd;
+    background: url(../../assets/img/login1.JPG);
     background-size: cover;
     background-position: center 0;
     background-repeat: no-repeat;
-    padding: 0px;
+    padding: 5px 0;
 }
 
 .main .registroLogin .container .logos .card .card-body .card-title{
@@ -94,7 +94,7 @@ header .textos .contenedor-btns a:hover {
     font-family: "Open Sans", Arial, Sans-serif;
     font-weight:  bold;
     font-size: 32px;
-    color: #000000;
+    color: #0f4c75;
     padding: 7px;
 }
 
