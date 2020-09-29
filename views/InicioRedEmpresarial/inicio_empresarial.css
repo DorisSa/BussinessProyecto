@@ -8,7 +8,7 @@
 3.  Reset Css
 4.  Cross Browser Compatibility
 5.  Header
-6.  Navigations
+6.  gations
 7.  Dropdown
 8.  Responsive Header
 9.  Revolution Slider (Banner)
@@ -55,7 +55,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
+menu,  output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -66,7 +66,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu,  section {
 	display: block;
 }
 body {
@@ -142,9 +142,9 @@ img{
 	max-width: 100%;
 }
 .ask-question,
-nav,
+
 .notification-box.active,
-nav ul li a,
+ul li a,
 .user-account-settingss.active,
 .user-info a,
 .suggestion-usd > span i,
@@ -177,7 +177,7 @@ nav ul li a,
 .forum-links.active,
 .react-links li a,
 .next-prev > a,
-nav ul li:hover > ul,
+ul li:hover > ul,
 .user-pro-img > a i {
 	-webkit-transition: all 0.4s ease-in;
 	-moz-transition: all 0.4s ease-in;
@@ -268,15 +268,19 @@ nav ul li:hover > ul,
 	z-index: 99;
 }
 
-header {
+/* header {
 	float: left;
 	width: 100%;
 	background-color: #e44d3a;
-}
-.header-data {
-	float: left;
+} */
+/* .header-data {
+	float: left; 
 	width: 100%;
-}
+} */
+
+
+
+
 .logo {
 	float: left;
 	width: 40px;
@@ -390,24 +394,19 @@ header {
 	font-weight: bold;
 }
 
-nav {
-	float: left;
-	width: 60%;
-	text-align: right;
-	padding-right: 13px;
-}
-nav ul li {
+
+ul li {
 	display: inline-block;
 	text-align: center;
 	padding: 13px 13px;
 	position: relative;
 }
-nav ul li:hover > ul {
+ul li:hover > ul {
 	opacity: 1;
 	visibility: visible;
 	z-index: 9999;
 }
-nav ul ul {
+ul ul {
 	position: absolute;
 	top: 100%;
 	left: 0;
@@ -419,7 +418,7 @@ nav ul ul {
 	visibility: hidden;
 	z-index: 999999;
 }
-nav ul ul li {
+ul ul li {
 	padding: 0;
 	float: left;
 	width: 100%;
@@ -427,10 +426,10 @@ nav ul ul li {
 	margin-bottom: 15px;
 	padding: 0 20px;
 }
-nav ul ul li a:hover {
+ul ul li a:hover {
 	color: #fff;
 }
-nav ul ul li a {
+ul ul li a {
 	font-size: 16px;
 }
 .notification-box.msg p {
@@ -519,18 +518,18 @@ nav ul ul li a {
 	background-color: #e44d3a;
 	padding: 18px 0;
 }
-nav ul li span {
+ul li span {
 	display: block;
 	height: 14px;
 }
-nav ul li span img {
+ul li span img {
 	float: none;
 }
-nav ul li a {
+ul li a {
 	color: #ffffff;
 	font-size: 14px;
 }
-nav > ul > li > a:hover {
+ul > li > a:hover {
 	color: #fff;
 }
 
@@ -4392,7 +4391,7 @@ a:hover {
 	border-bottom: 1px solid #e5e5e5;
 	border-right: 1px solid #e5e5e5;
 }
-.acc-leftbar .nav-tabs > a {
+.acc-leftbar .tabs > a {
 	float: left;
 	width: 100%;
 	background: none;
@@ -4410,13 +4409,13 @@ a:hover {
 	border-radius: 0;
 	border-top: 0;
 }
-.nav-tabs {
+.tabs {
 	border-bottom: 0;
 }
-.acc-leftbar .nav-tabs > a:last-child {
+.acc-leftbar .tabs > a:last-child {
 	border-bottom: 0;
 }
-.acc-leftbar .nav-tabs > a i {
+.acc-leftbar .tabs > a i {
 	padding-right: 15px;
 	font-size: 20px;
 	position: relative;
@@ -4424,7 +4423,7 @@ a:hover {
 	font-weight: 700;
 	width: 40px;
 }
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+.tabs .item.show .link, .tabs .link.active {
 	background-color: inherit;
 	color: #e44d3a;
 	border-color: inherit;
@@ -5245,7 +5244,7 @@ a:hover {
 .pd-right-none {
 	padding-right: 0;
 }
-/* =========== navigation ============ */
+/* =========== gation ============ */
 
 .pagination {
 	float: left;
@@ -6517,7 +6516,7 @@ a:hover {
 ul#myTab {
     border-bottom: 1px solid #e5e5e5;
 }
-.nav-tabs .nav-link {
+.tabs .link {
     border: none; 
 }    
 .noborder{
@@ -6529,7 +6528,7 @@ ul#myTab {
 .noreply{
 	padding-top: 30px;
 }
-#my-bids .nav-tabs {
+#my-bids .tabs {
     margin-bottom: 20px;
     margin-top: 7px;
     padding-bottom: 0;
@@ -6567,13 +6566,13 @@ ul#myTab {
     font-weight: 600;
     margin-bottom: 15px;
 }
-#saved-jobs .nav-tabs .nav-item.show .nav-link, #saved-jobs .nav-tabs .nav-link.active {
+#saved-jobs .tabs .item.show .link, #saved-jobs .tabs .link.active {
     background-color: inherit;
     color: #e44d3a !important;
 	padding-bottom: 9px;
 	border-bottom: 2px solid #e44d3a !important;
 }
-#my-bids .nav-tabs .nav-item.show .nav-link, #my-bids .nav-tabs .nav-link.active {
+#my-bids .tabs .item.show .link, #my-bids .tabs .link.active {
     background-color: inherit;
     color: #e44d3a !important;
 	padding-bottom: 9px;
